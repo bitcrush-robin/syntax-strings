@@ -4,6 +4,7 @@
     "description": "Highlight strings in python as sql, html, glsl, or more python",
     "version": "1.0.0",
     "publisher": "bitcrush",
+    "icon": "docs/logo.png",
     "repository": {
         "url": "https://github.com/bitcrush-robin/syntax-strings"
     },
