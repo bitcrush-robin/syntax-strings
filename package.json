@@ -4,7 +4,6 @@
     "description": "Highlight strings in python as sql, html, glsl, or more python",
     "version": "1.0.0",
     "publisher": "bitcrush",
-    // "icon": "docs/logo.png",
     "repository": {
         "url": "https://github.com/bitcrush-robin/syntax-strings"
     },
@@ -54,25 +53,7 @@
                     "source.python"
                 ],
                 "embeddedLanguages": {
-                    "meta.embedded.block.glsl": "glsl"
-                }
-            }
-        ],
-        "snippets": [
-            {
-                "language": "python",
-                "path": "./snippets/python.json"
-            }
-        ],
-        "keybindings": [
-            {
-                "command": "editor.action.insertSnippet",
-                "key": "cmd+s",
-                "mac": "ctrl+s",
-                "when": "editorTextFocus",
-                "args": {
-                    "langId": "python",
-                    "name": "SQL_highlighted_string"
+                    "meta.embedded.glsl": "glsl"
                 }
             }
         ]
