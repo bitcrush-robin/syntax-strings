@@ -1,0 +1,23 @@
+{
+  "fileTypes": [
+    "py"
+  ],
+  "injectionSelector": "L:string.quoted.multi.python, L:meta.fstring.python - (comment.line.number-sign.python, punctuation.definition.comment.python)",
+  "patterns": [
+    {
+      "begin": "#version.+?\n( *//glsl| *//beginglsl| *//begin-glsl)",
+      "end": "( *| *//endglsl| *//end-python)",
+      "captures": {
+        "1": {
+          "name": "variable.parameter"
+        }
+      },
+      "patterns": [
+        {
+          "include": "source.python"
+        }
+      ]
+    }
+  ],
+  "scopeName": "python-glsl.injection"
+}
