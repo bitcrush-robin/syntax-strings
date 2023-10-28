@@ -6,7 +6,7 @@
   "patterns": [
     {
       "begin": "#version.+?",
-      "end": " *//\\s*end-*glsl",
+      "end": "\\s*//\\s*end-*glsl",
       "captures": {
         "1": {
           "name": "variable.parameter"

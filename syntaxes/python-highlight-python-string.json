@@ -6,7 +6,7 @@
   "patterns": [
     {
       "begin": "( *#python| *#beginpython| *#begin-python)",
-      "end": "( *;| *#endpython| *#end-python)",
+      "end": "\\s*#\\s*end-*python",
       "captures": {
         "1": {
           "name": "variable.parameter"
